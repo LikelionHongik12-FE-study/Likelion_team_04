@@ -337,7 +337,8 @@ function func4(): never {
 타입이란, **집합**이다 !
 
 - 동일한 속성과 특징들을 갖는 값들을 갖는 집합
-- 따라서, 타입 계층도가 존재한다.
+- 따라서, 타입 계층도가 존재한다.![image (2)](https://github.com/user-attachments/assets/ddc51b9a-47b5-4fdc-9b71-e433fd10395d)
+
     ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/50c230df-a714-40a7-8412-3063c96fa504/7105c227-dc91-4992-865f-85ac4bffca4b/image.png)
     ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/50c230df-a714-40a7-8412-3063c96fa504/7105c227-dc91-4992-865f-85ac4bffca4b/image.png)
   ![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/50c230df-a714-40a7-8412-3063c96fa504/70b725b3-d977-46a7-a7b0-edb0aaf36477/Untitled.png)
