@@ -1,47 +1,4 @@
-- Node의 모듈 시스템
-    
-    <aside>
-    💡
-    
-    모듈이란?
-    : 독립적으로 존재하는 프로그램의 일부로 재사용이 가능한 것들을 말한다. 기본적으로 JS에서는 독립된 하나의 파일을 개별 모듈로 인식한다. 
-    
-    </aside>
-    
-    JS 런타임 환경인 Node 에서는 기본적으로 사용하는 모듈 시스템은 CJS, 즉 CommonJS 이다. 그러나 브라우저나 다른 JS 런타임에서는 [ECMAScript modules](https://nodejs.org/api/esm.html) 를 사용하는데, Node는 이런 모듈 시스템도 지원한다.
-    
-    ```jsx
-    //ESM(ES모듈 시스템)
-    import, export
-    
-    //CJS 
-    require, exports
-    ```
-    
-    Node에서는 Default로 CJS 모듈 시스템을 사용하므로, ESM을 사용하려면  package.json 에서 설정을 변경해야 한다. 
-    
-    ```jsx
-    //맨 마지막에 "type": "module"  을 추가하면 된다 !
-    {
-      "name": "chapter3",
-      "version": "1.0.0",
-      "description": "",
-      "main": "index.js",
-      "scripts": {
-        "start": "node index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-      },
-      "author": "",
-      "license": "ISC",
-      "type": "module" ①
-    }
-    ```
-    
-    https://reactjs.winterlood.com/4683fda0-82e5-452f-98fe-a3aab428d2b7
-    
-    https://nodejs.org/api/modules.html
-    
-- 에러를 throw 하면 프로그램이 종료된다? 프로그램 종료는 어디 범위까지?
+
 
 ```jsx
 npm init //Node.js 패키지 초기화
